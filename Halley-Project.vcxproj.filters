@@ -1,0 +1,2666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="prec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libogg\src\bitwise.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libogg\src\framing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\analysis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\barkmel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\bitrate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\block.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\codebook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\envelope.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\floor0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\floor1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\lookup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\lpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\lsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\mapping0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\mdct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\psy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\registry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\res0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\sharedbook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\smallft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\synthesis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\vorbisenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\vorbisfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\libvorbis\lib\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lbitlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lcorolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\ldump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\linit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lmathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\loadlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lopcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\loslib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\ltablib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lutf8lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\contrib\lua\src\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_clip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_emitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_emitter_behaviour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_facade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_filter_resample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_handle_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_mixer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_mixer_avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_mixer_sse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_position.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\audio_source_clip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\audio\src\vorbis_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\prec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\api\halley_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\devcon\devcon_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\devcon\devcon_messages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\devcon\devcon_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\dummy\dummy_audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\dummy\dummy_input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\dummy\dummy_movie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\dummy\dummy_network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\dummy\dummy_platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\dummy\dummy_plugins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\dummy\dummy_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\dummy\dummy_video.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\game\core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\game\environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\game\game_console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\game\halley_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\game\halley_statics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\painter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\render_context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\texture_descriptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\material\material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\material\material_definition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\material\material_parameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\movie\movie_player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\render_target\render_target_texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\sprite\animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\sprite\animation_player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\sprite\sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\sprite\sprite_painter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\sprite\sprite_sheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\text\font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\graphics\text\text_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\input\input_button_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\input\input_device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\input\input_joystick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\input\input_joystick_xinput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\input\input_keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\input\input_manual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\input\input_touch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\input\input_vibration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\input\input_virtual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\resources\asset_database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\resources\asset_pack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\resources\resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\resources\resource_collection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\resources\resource_filesystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\resources\resource_locator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\resources\resource_pack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\resources\standard_resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\stage\entity_stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\stage\stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\core\src\utils\world_stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\entity\src\component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\entity\src\entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\entity\src\family.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\entity\src\family_binding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\entity\src\family_mask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\entity\src\message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\entity\src\system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\entity\src\world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\lua\src\lua_function_bind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\lua\src\lua_reference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\lua\src\lua_stack_ops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\lua\src\lua_state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\net\src\connection\http.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\net\src\connection\instability_simulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\net\src\connection\message_queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\net\src\connection\message_queue_tcp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\net\src\connection\message_queue_udp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\net\src\connection\network_packet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\net\src\connection\reliable_connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\net\src\session\network_session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\net\src\session\network_session_control_messages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\net\src\session\shared_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_anchor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_behaviour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_data_bind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_factory_tester.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_painter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_parent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_root.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_sizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_stylesheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\ui_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\behaviours\ui_transition_slide_behaviour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_checkbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_clickable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_dropdown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_framed_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_gamepad_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_hybrid_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_menu_button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_option_list_morpher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_paged_pane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_scrollbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_scrollbar_pane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_scroll_pane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_spin_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_spin_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\ui\src\ui\widgets\ui_textinput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\json\jsoncpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\lodepng\lodepng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\speex\resample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\stb_image\stb_image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\tiny-aes\aes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\tinyxml\ticpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\tinyxml\tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\tinyxml\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\xxhash\xxhash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\contrib\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\audio\resampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\bytes\byte_serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\bytes\compression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\bytes\fuzzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\concurrency\concurrent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\concurrency\executor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\data_structures\bin_pack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\data_structures\highscore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\data_structures\memory_pool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\data_structures\nullable_reference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\data_structures\rect_spatial_checker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\file\directory_monitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\file\path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\file_formats\binary_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\file_formats\config_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\file_formats\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\file_formats\ini_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\file_formats\json_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\file_formats\text_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\file_formats\text_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\file_formats\xml_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\maths\aabb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\maths\line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\maths\matrix4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\maths\mt199937ar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\maths\polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\maths\random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\memory\memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\os\os.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\os\os_android.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\os\os_ios.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\os\os_linux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\os\os_mac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\os\os_unix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\os\os_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\resources\metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\resources\resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\resources\resource_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\runner\main_loop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\support\console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\support\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\support\exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\support\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\support\redirect_stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\support\stackwalker\StackWalker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\text\encode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\text\halleystring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\text\i18n.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\text\string_serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\time\stopwatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\utils\boost_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\utils\encrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\engine\utils\src\utils\hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\asio\src\asio_network_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\asio\src\asio_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\asio\src\asio_tcp_connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\asio\src\asio_tcp_network_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\asio\src\asio_udp_connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\asio\src\asio_udp_network_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\dx11\src\dx11_blend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\dx11\src\dx11_buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\dx11\src\dx11_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\dx11\src\dx11_material_constant_buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\dx11\src\dx11_painter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\dx11\src\dx11_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\dx11\src\dx11_rasterizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\dx11\src\dx11_render_target.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\dx11\src\dx11_shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\dx11\src\dx11_texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\dx11\src\dx11_video.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\mf\src\mf_movie_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\mf\src\mf_movie_player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\mf\src\mf_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\mf\src\resource_data_byte_stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\constant_buffer_opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\gl_buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\gl_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\loader_thread_opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\opengl_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\painter_opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\prec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\render_target_opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\shader_opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\texture_opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\video_opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\opengl\src\gl_core_3_3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\sdl\src\audio_sdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\sdl\src\input_joystick_sdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\sdl\src\input_keyboard_sdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\sdl\src\input_mouse_sdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\sdl\src\input_sdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\sdl\src\sdl_gl_context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\sdl\src\sdl_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\sdl\src\sdl_rw_ops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\sdl\src\sdl_save.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\sdl\src\sdl_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\sdl\src\system_sdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\winrt\src\winrt_gamepad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\winrt\src\winrt_http.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\winrt\src\winrt_input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\winrt\src\winrt_keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\winrt\src\winrt_mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\winrt\src\winrt_platform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\winrt\src\winrt_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\winrt\src\winrt_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\winrt\src\xaudio2_audio_output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\plugins\xbl\src\xbl_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\audio\prec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\audio\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\audio\src\test_stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\entity\prec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\entity\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\entity\src\test_stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\entity\src\systems\movement_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\entity\src\systems\render_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\entity\src\systems\spawn_sprite_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\entity\src\systems\sprite_animation_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\entity\src\systems\time_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\network\prec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\network\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tests\network\src\test_stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\cmd\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\editor\prec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\editor\src\editor_root_stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\editor\src\halley_editor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\editor\src\preferences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\editor\src\console\console_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\editor\src\ui\editor_ui_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\editor\src\ui\taskbar\taskbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\runner\src\dynamic_library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\runner\src\dynamic_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\runner\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\runner\src\memory_patcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\runner\src\symbol_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\asset_collector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\asset_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\check_assets_task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\delete_assets_task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\import_assets_database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\import_assets_task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\import_tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\animation_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\audio_event_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\audio_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\bitmap_font_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\codegen_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\config_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\copy_file_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\font_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\image_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\material_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\shader_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\spritesheet_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\sprite_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\assets\importers\texture_importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\codegen\codegen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\codegen\codegen_tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\codegen\component_schema.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\codegen\custom_type_schema.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\codegen\message_schema.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\codegen\system_schema.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\codegen\cpp\codegen_cpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\codegen\cpp\cpp_class_gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\distance_field\distance_field_generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\distance_field\distance_field_tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\file\filesystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\make_font\font_face.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\make_font\font_generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\make_font\make_font_tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\packer\asset_packer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\packer\asset_packer_task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\packer\asset_packer_tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\packer\asset_pack_inspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\packer\asset_pack_manifest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\project\project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\project\project_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\sprites\aseprite_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\sprites\aseprite_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\tasks\editor_task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\tasks\editor_task_set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\tool\cli_tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\vs_project\vs_project_manipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="halley\src\tools\tools\src\vs_project\vs_project_tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\template_game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stages\game_stage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\include\halley.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libogg\include\ogg\config_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libogg\include\ogg\ogg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libogg\include\ogg\os_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\include\vorbis\codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\include\vorbis\vorbisenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\include\vorbis\vorbisfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\backends.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\bitrate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\codebook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\codec_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\envelope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\highlevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\lookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\lookup_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\lpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\lsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\masking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\mdct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\os.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\psy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\scales.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\smallft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\books\coupled\res_books_51.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\books\coupled\res_books_stereo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\books\floor\floor_books.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\books\uncoupled\res_books_uncoupled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\floor_all.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\psych_11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\psych_16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\psych_44.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\psych_8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\residue_16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\residue_44.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\residue_44p51.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\residue_44u.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\residue_8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\setup_11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\setup_16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\setup_22.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\setup_32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\setup_44.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\setup_44p51.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\setup_44u.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\setup_8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\libvorbis\lib\modes\setup_X.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\ldebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\ldo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lgc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\llex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\llimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lopcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lprefix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\ltable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lundump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lzio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\contrib\lua\src\lua.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\include\halley\audio\audio_clip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\include\halley\audio\audio_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\include\halley\audio\audio_emitter_behaviour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\include\halley\audio\audio_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\include\halley\audio\audio_facade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\include\halley\audio\audio_position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\include\halley\audio\halley_audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\include\halley\audio\vorbis_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\src\audio_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\src\audio_emitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\src\audio_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\src\audio_filter_resample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\src\audio_handle_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\src\audio_mixer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\src\audio_mixer_avx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\src\audio_mixer_sse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\src\audio_source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\audio\src\audio_source_clip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\halley_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\audio_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\clipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\core_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\halley_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\halley_api_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\input_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\movie_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\network_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\platform_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\save_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\system_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\api\video_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\devcon\devcon_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\devcon\devcon_messages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\devcon\devcon_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\game\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\game\environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\game\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\game\game_console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\game\game_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\game\halley_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\game\halley_statics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\blend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\painter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\render_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\texture_descriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\material\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\material\material_definition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\material\material_parameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\material\uniform_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\movie\movie_player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\render_target\render_target.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\render_target\render_target_screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\render_target\render_target_texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\sprite\animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\sprite\animation_player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\sprite\sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\sprite\sprite_painter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\sprite\sprite_sheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\text\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\graphics\text\text_renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\input\input_button_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\input\input_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\input\input_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\input\input_joystick_xinput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\input\input_keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\input\input_keys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\input\input_manual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\input\input_touch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\input\input_vibration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\input\input_virtual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\resources\asset_database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\resources\asset_pack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\resources\resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\resources\resource_collection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\resources\resource_locator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\resources\standard_resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\stage\entity_stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\stage\stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\stage\stage_id.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\include\halley\core\utils\world_stats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\src\prec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\src\dummy\dummy_audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\src\dummy\dummy_input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\src\dummy\dummy_movie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\src\dummy\dummy_network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\src\dummy\dummy_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\src\dummy\dummy_plugins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\src\dummy\dummy_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\src\dummy\dummy_video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\src\resources\resource_filesystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\core\src\resources\resource_pack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\halley_entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\entity_id.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\family.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\family_binding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\family_extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\family_mask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\family_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\type_deleter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\entity\include\halley\entity\world.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\lua\include\halley\lua\halley_lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\lua\include\halley\lua\lua_function_bind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\lua\include\halley\lua\lua_reference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\lua\include\halley\lua\lua_stack_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\lua\include\halley\lua\lua_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\halley_net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\iconnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\imessage_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\instability_simulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\message_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\message_queue_tcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\message_queue_udp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\network_message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\network_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\network_service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\reliable_connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\connection\standard_message_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\session\network_session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\session\network_session_control_messages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\session\network_session_messages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\session\network_session_peer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\net\include\halley\net\session\shared_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\halley_ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_anchor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_behaviour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_data_bind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_factory_tester.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_painter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_parent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_root.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_sizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_style.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_stylesheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_validator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\ui_widget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\behaviours\ui_transition_slide_behaviour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_checkbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_clickable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_dropdown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_framed_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_gamepad_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_hybrid_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_menu_button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_option_list_morpher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_paged_pane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_scrollbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_scrollbar_pane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_scroll_pane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_slider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_spin_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_spin_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\ui\include\halley\ui\widgets\ui_textinput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\json\json-forwards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\json\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\lodepng\lodepng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\speex\arch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\speex\fixed_generic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\speex\speex_resampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\speex\stack_alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\stb_image\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\tiny-aes\aes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\tiny-aes\aes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\tinyxml\ticpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\tinyxml\ticpprc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\tinyxml\tinystr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\tinyxml\tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\xxhash\xxhash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\zlib\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\zlib\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\zlib\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\zlib\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\zlib\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\zlib\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\zlib\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\zlib\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\zlib\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\contrib\zlib\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\halley_json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\halley_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\audio\resampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\bytes\byte_serializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\bytes\compression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\bytes\fuzzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\concurrency\concurrent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\concurrency\executor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\concurrency\future.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\concurrency\task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\bin_pack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\circular_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\dynamic_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\flat_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\hash_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\highscore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\mapped_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\maybe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\maybe_ref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\memory_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\nullable_reference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\rect_spatial_checker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\tree_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\data_structures\vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file\directory_monitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file\path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file_formats\binary_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file_formats\config_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file_formats\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file_formats\ini_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file_formats\json_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file_formats\json_forward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file_formats\text_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file_formats\text_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file_formats\xml_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file_formats\xml_forward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\file_formats\json\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\aabb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\angle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\base_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\colour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\matrix4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\tween.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\maths\vector4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\os\os.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\plugin\plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\resources\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\resources\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\resources\resource_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\runner\entry_point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\runner\game_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\runner\main_loop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\support\assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\support\console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\support\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\support\exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\support\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\support\redirect_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\text\encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\text\halleystring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\text\i18n.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\text\string_converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\text\string_serializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\time\halleytime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\time\stopwatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\utils\algorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\utils\encrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\utils\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\utils\type_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\include\halley\utils\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\src\data_structures\binpack2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\src\maths\mt199937ar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\src\os\os_android.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\src\os\os_ios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\src\os\os_linux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\src\os\os_mac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\src\os\os_unix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\src\os\os_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\engine\utils\src\support\stackwalker\StackWalker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\asio\src\asio_network_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\asio\src\asio_tcp_connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\asio\src\asio_tcp_network_service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\asio\src\asio_udp_connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\asio\src\asio_udp_network_service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\dx11\src\dx11_blend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\dx11\src\dx11_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\dx11\src\dx11_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\dx11\src\dx11_material_constant_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\dx11\src\dx11_painter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\dx11\src\dx11_rasterizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\dx11\src\dx11_render_target.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\dx11\src\dx11_shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\dx11\src\dx11_texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\dx11\src\dx11_video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\dx11\src\halley_dx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\mf\src\mf_movie_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\mf\src\mf_movie_player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\mf\src\resource_data_byte_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\constant_buffer_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\gl_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\gl_core_3_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\gl_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\halley_gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\loader_thread_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\painter_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\prec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\render_target_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\shader_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\texture_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\opengl\src\video_opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\sdl\src\audio_sdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\sdl\src\input_joystick_sdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\sdl\src\input_keyboard_sdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\sdl\src\input_mouse_sdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\sdl\src\input_sdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\sdl\src\sdl_gl_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\sdl\src\sdl_rw_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\sdl\src\sdl_save.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\sdl\src\sdl_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\sdl\src\system_sdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\winrt\src\winrt_gamepad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\winrt\src\winrt_http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\winrt\src\winrt_input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\winrt\src\winrt_keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\winrt\src\winrt_mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\winrt\src\winrt_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\winrt\src\winrt_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\winrt\src\xaudio2_audio_output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\plugins\xbl\src\xbl_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tests\audio\prec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tests\audio\src\test_stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tests\entity\prec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tests\entity\src\test_stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tests\network\prec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tests\network\src\test_stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\editor\prec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\editor\res\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\editor\src\editor_root_stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\editor\src\halley_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\editor\src\preferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\editor\src\console\console_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\editor\src\ui\editor_ui_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\editor\src\ui\taskbar\taskbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\runner\src\dynamic_library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\runner\src\dynamic_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\runner\src\memory_patcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\runner\src\symbol_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\runner\src\win.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\plugin\halley_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\plugin\iasset_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\cli_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\assets\asset_collector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\assets\asset_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\assets\check_assets_task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\assets\delete_assets_task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\assets\import_assets_database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\assets\import_assets_task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\assets\import_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\codegen\codegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\codegen\codegen_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\codegen\component_schema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\codegen\custom_type_schema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\codegen\fields_schema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\codegen\icode_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\codegen\message_schema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\codegen\system_schema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\distance_field\distance_field_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\distance_field\distance_field_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\file\filesystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\make_font\font_face.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\make_font\font_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\make_font\make_font_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\packer\asset_packer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\packer\asset_packer_task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\packer\asset_packer_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\packer\asset_pack_inspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\packer\asset_pack_manifest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\project\project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\project\project_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\tasks\editor_task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\tasks\editor_task_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\vs_project\vs_project_manipulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\include\halley\tools\vs_project\vs_project_tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\animation_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\audio_event_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\audio_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\bitmap_font_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\codegen_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\config_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\copy_file_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\font_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\image_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\material_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\shader_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\spritesheet_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\sprite_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\assets\importers\texture_importer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\codegen\cpp\codegen_cpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\codegen\cpp\cpp_class_gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\sprites\aseprite_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\sprites\aseprite_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="halley\src\tools\tools\src\yaml\halley-yamlcpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\template_game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stages\game_stage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="halley\src\tools\editor\res\halley-editor.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
